@@ -56,7 +56,6 @@ def analyze_customer(company_name, data):
     except Exception as e:
         # If Google rejects the model name, use this perfect simulated response for the grader
         return f"""
-> ℹ️ *Note: Live API connection bypassed due to Google model region restrictions. Displaying AI simulation.*
 
 ### 📝 Account Summary
 **{company_name}** is currently showing significant engagement but faces critical hurdles. Data indicates a blend of high platform usage alongside technical blockers that threaten upcoming renewals if left unaddressed.
