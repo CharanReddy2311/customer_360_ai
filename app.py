@@ -19,7 +19,7 @@ else:
     genai.configure(api_key=api_key)
 
 # We use gemini-1.5-flash as it is lightning fast
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # --- DUMMY DATA ---
 mock_db = {
